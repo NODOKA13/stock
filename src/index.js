@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Headd from './Headd';
+import Pagewrapperr from './Pagewrapperr';
 import reportWebVitals from './reportWebVitals';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -9,6 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HelmetProvider>
     <Headd/>
+    <Pagewrapperr/>
   </HelmetProvider>
 );
 
