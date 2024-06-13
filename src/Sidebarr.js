@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
+
 function Sidebarr(){
     return(
         //<!--  Sidebar-->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             {/*<!-- Sidebar - Brand-->*/}
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <Link class="sidebar-brand d-flex align-items-center justify-content-center" to="/">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fa fa-bomb"></i>
                     {/*<!-- <i class="fas fa-laugh-wink"></i>-->*/}
                 </div>
                 <div class="sidebar-brand-text mx-3">Stock</div>
-            </a>
+            </Link>
 
             {/*<!--  Divider-->*/}
             <hr class="sidebar-divider"/>
@@ -22,9 +24,18 @@ function Sidebarr(){
 
             {/*<!--  Nav Item - Charts-->*/}
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <Link class="nav-link" to="/">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
+                    <span>Mian Page</span>
+                </Link>
+            </li>
+
+            {/*<!--  Nav Item - Charts-->*/}
+            <li class="nav-item">
+                <Link class="nav-link" to="/about">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>About Page</span>
+                </Link>
             </li>
 
             {/*<!--  Divider-->*/}
