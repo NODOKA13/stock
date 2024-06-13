@@ -1,12 +1,12 @@
 import Contentwrapperr from './Contentwrapperr';
 import Sidebarr from './Sidebarr';
 
-function Pagewrapperr(){
+function Pagewrapperr({Content}){
     return(
         //<!-- Page Wrapper -->
         <div id="wrapper">
             <Sidebarr/>
-            <Contentwrapperr/>
+            <Contentwrapperr Content={Content}/>
 
         </div>
         //<!-- End of Page Wrapper -->

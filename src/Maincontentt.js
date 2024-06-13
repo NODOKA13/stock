@@ -1,6 +1,6 @@
 import Topbarr from './Topbarr';
 
-function Maincontentt(){
+function Maincontentt({Content}){
     return(
         //!-- Main Content-->
         <div id="content">
@@ -12,7 +12,7 @@ function Maincontentt(){
             {/*<!-- Begin Page Content -->*/}
                 <div class="container-fluid">
                     {/*<!-- Page Heading -->*/}
-                    <h1 class="h3 mb-4 text-gray-800">Main Page</h1>
+                    {Content}
                 </div>
             {/*<!-- /.container-fluid -->*/}
 
