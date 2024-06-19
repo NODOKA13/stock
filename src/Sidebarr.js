@@ -24,17 +24,25 @@ function Sidebarr(){
 
             {/*<!--  Nav Item - Charts-->*/}
             <li class="nav-item">
-                <Link class="nav-link" to="/">
+                <Link class="nav-link" to="/about">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Mian Page</span>
+                    <span>About Page</span>
                 </Link>
             </li>
 
             {/*<!--  Nav Item - Charts-->*/}
             <li class="nav-item">
-                <Link class="nav-link" to="/about">
+                <Link class="nav-link" to="/read">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>About Page</span>
+                    <span>Read Page</span>
+                </Link>
+            </li>
+
+            {/*<!--  Nav Item - Charts-->*/}
+            <li class="nav-item">
+                <Link class="nav-link" to="/read/123">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Read Page 123</span>
                 </Link>
             </li>
 
